@@ -16,6 +16,7 @@
 		FEA683AA23A8C63600E90F81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA683A823A8C63600E90F81 /* LaunchScreen.storyboard */; };
 		FEA683B523A8C63600E90F81 /* AppSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA683B423A8C63600E90F81 /* AppSearchTests.swift */; };
 		FEA683C023A8C63600E90F81 /* AppSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA683BF23A8C63600E90F81 /* AppSearchUITests.swift */; };
+		FEA683CE23A9E08E00E90F81 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA683CD23A9E08E00E90F81 /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FEA683BB23A8C63600E90F81 /* AppSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA683BF23A8C63600E90F81 /* AppSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSearchUITests.swift; sourceTree = "<group>"; };
 		FEA683C123A8C63600E90F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA683CD23A9E08E00E90F81 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				FEA683A823A8C63600E90F81 /* LaunchScreen.storyboard */,
 				FEA683AB23A8C63600E90F81 /* Info.plist */,
 				FEA683A323A8C63200E90F81 /* AppSearch.xcdatamodeld */,
+				FEA683CD23A9E08E00E90F81 /* SearchResult.swift */,
 			);
 			path = AppSearch;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				FEA6839F23A8C63200E90F81 /* SearchViewController.swift in Sources */,
 				FEA683A523A8C63200E90F81 /* AppSearch.xcdatamodeld in Sources */,
+				FEA683CE23A9E08E00E90F81 /* SearchResult.swift in Sources */,
 				FEA6839B23A8C63200E90F81 /* AppDelegate.swift in Sources */,
 				FEA6839D23A8C63200E90F81 /* SceneDelegate.swift in Sources */,
 			);
